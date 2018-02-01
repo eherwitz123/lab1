@@ -173,7 +173,7 @@ replace the "[]" with the correct functional call.
 let rec square_all (lst : int list) : int list =
   match lst with 
     []-->
-    head :: tail -->  insert h^2 (square_all)
+    head :: tail -->  insert h^2 (square_all) ;;
 
 let exercise6 = [] ;;
 
